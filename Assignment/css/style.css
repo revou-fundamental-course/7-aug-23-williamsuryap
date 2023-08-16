@@ -1,0 +1,100 @@
+html,
+body :root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+}
+
+.upper {
+  border: 1px;
+  margin: 0 auto;
+  width: 50%;
+  font-family: sans-serif;
+}
+
+.welcoming {
+  text-align: center;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+.luas-segitiga {
+  border: 2px solid #429ef5;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+header {
+  background-color: #429ef5;
+  color: white;
+  font-family: sans-serif;
+  width: 100%;
+  height: 70%;
+  margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
+  line-height: 70px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+p {
+  margin-left: 10px;
+}
+
+.header-calculate {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.formula {
+  text-align: center;
+}
+
+input {
+  display: block;
+  width: 95%;
+  height: 30px;
+  margin: 5px auto;
+}
+
+.calculate {
+  display: block;
+  margin: 20px auto;
+  width: 100px;
+  height: 30px;
+  background-color: #429ef5;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.reset {
+  display: block;
+  margin: 20px auto;
+  margin-right: 20px;
+  background-color: orange;
+  color: white;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.keliling-segitiga {
+  border: 2px solid #429ef5;
+  margin: 0 auto;
+  width: 50%;
+}

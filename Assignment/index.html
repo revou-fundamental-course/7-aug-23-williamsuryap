@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Matematik Segitiga</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="upper">
+        <h1>Welcome to Katik</h1>
+        <p class="welcoming">Hai Sobat, Selamat datang di Katik :] </br> 
+        Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+      </div>
+      <div class="luas-segitiga">
+        <header>
+          Luas Segitiga
+        </header>
+        <img src="assets/triangle.png" alt="gambar-segitiga" />
+        <p>Rumus luas segitiga yaitu :</p>
+        <p class="formula">L = 1/2 x alas x tinggi</p>
+        <p>Dimana : <br>
+          L = Luas <br>
+          a = Panjang alas <br>
+          t = Tinggi alas</p>
+        <hr>
+        <h3 class="header-calculate">Hitung Luas Segitiga</h3>
+        <input type="number" placeholder="Nilai alas" id="alasLuas"/>
+        <input type="number" placeholder="Nilai tinggi" id="tinggiLuas"/>
+        <button class="calculate" id="hitungLuas">Hitung</button>
+        <p id="hasilLuas"></p>
+        <button class="reset" id="resetLuas">Reset</button>
+      </div>
+      <div class="keliling-segitiga">
+        <header>
+          Keliling Segitiga
+        </header>
+        <img src="assets/triangle.png" alt="gambar-segitiga" />
+        <p>Rumus keliling segitiga yaitu :</p>
+        <p class="formula">K = S1 + S2 + S3</p>
+        <p>Dimana : <br>
+          K = Keliling <br>
+          S1 = a <br>
+          S2 = b <br>
+          S3 = c
+        </p>
+      <hr>
+        <h3 class="header-calculate">Hitung Keliling Segitiga</h3>
+        <input type="number" placeholder="Sisi 1" id="s1" />
+        <input type="number" placeholder="Sisi 2" id="s2" /> 
+        <input type="number" placeholder="Sisi 3" id="s3" /> 
+        <button class="calculate" id="hitungKeliling">Hitung</button>
+        <p id="hasilKeliling"></p>
+        <button class="reset" id="resetKeliling">Reset</button>
+      </div>
+    </div> 
+    <script src="js/script.js"></script>
+  </body>
+</html>
